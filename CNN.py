@@ -74,9 +74,6 @@ def shuffle_batch(xtrain, ytrain):
 def next_batch(idx, xtrain, ytrian):
 	# if idx + BATCH_SIZE > len(xtrain):
 	# 	idx = 0
-	com = list(zip(xtrain, ytrian))
-	shuffle(com)
-	xtrain[:], ytrian[:] = zip(*com)
 	resx = xtrain[idx*BATCH_SIZE:(idx + 1)*BATCH_SIZE]
 	resy = ytrian[idx*BATCH_SIZE:(idx + 1)*BATCH_SIZE]
 	return resx, resy
