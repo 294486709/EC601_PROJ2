@@ -1,0 +1,9 @@
+1. Youtube Analyzer
+Word2vec with 300 features
+RNN with 1 layer of LSTM, softmax and Adam optimizer(self built)
+
+2. Political Analyzer
+Word2vec with 300 features
+RNN with 1 layer of LSTM, softmax and Adam optimizer(self built)
+
+RNN is the best model for text analysis
