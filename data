@@ -1,0 +1,11 @@
+1. Youtube Analyzer
+Data source:www.kaggle.com/datasnaek/youtube
+Selected 6 classes, each with 8000 samples. 
+Ratio of traing testing vailidation is 6 2 2
+The data quality is quite good, because youtube as already sorted for us.
+
+2. Political Analyzer
+Data source:www.kaggle.com/kapastor/democratvsrepublicantweets; www.kaggle.com/nltkdata/twitter-sample
+Selected 3 classes, each with 40,000 samples.
+Ratio of traing testing vailidation is 6 2 2
+The data quality is acceptiable.
